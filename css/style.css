@@ -1,0 +1,29 @@
+/* MY RULES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+/* HEADER */
+header {
+    color: #e53170;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+    
+}
+
+h1 { 
+    margin-bottom: 30px;
+} 
+
+header > p {
+    color: black;
+    width: 1200px;   
+    margin: 0 auto;
+    
+}
+/* / HEADER */
