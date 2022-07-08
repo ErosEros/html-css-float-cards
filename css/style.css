@@ -27,3 +27,34 @@ header > p {
     
 }
 /* / HEADER */
+
+/* CONTAINER */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.container > div{
+    width: calc(100% / 3 - 20px );
+    margin:  10px;
+    background-color: black;
+    color: white;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+img {
+    width: 30%;
+}
+/* / CONTAINER */
+
