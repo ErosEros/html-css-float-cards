@@ -46,6 +46,7 @@ header > p {
     float: left;
 }
 
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -62,6 +63,8 @@ img {
 .float-left > * {
     padding-right: 20px;
 }
+
+
 
 span {
     color: rgb(71, 71, 237);
